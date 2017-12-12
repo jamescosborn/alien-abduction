@@ -8,7 +8,7 @@ import { Scene } from '../scene.model';
 })
 export class SceneOneComponent implements OnInit {
   scenes: Scene[] = [
-    new Scene("You start eating fiberglass, throwing caution to the wind", "Immediately after starting you realize it was a mistake",  "https://cmeimg-a.akamaihd.net/640/photos.demandstudios.com/getty/article/83/253/155786269.jpg")
+    new Scene("You start eating fiberglass, throwing caution to the wind", "Immediately after starting you realize it was a mistake. You lose.",  "https://cmeimg-a.akamaihd.net/640/photos.demandstudios.com/getty/article/83/253/155786269.jpg")
   ]
 
   constructor() { }
