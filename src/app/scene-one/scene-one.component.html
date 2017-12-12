@@ -1,3 +1,6 @@
-<p>
-  Scene One
-</p>
+<h2>Scene One</h2>
+  <div *ngFor="let scene of scenes">
+    <h3><em>{{scene.title}}</em></h3>
+    <img src={{scene.image}}>
+    <h3><em>{{scene.description}}</em></h3>
+  </div>
