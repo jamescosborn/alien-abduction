@@ -8,13 +8,17 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { SceneOneComponent } from './scene-one/scene-one.component';
 import { SceneTwoComponent } from './scene-two/scene-two.component';
+import { SceneThreeComponent } from './scene-three/scene-three.component';
+import { AlbumDetailComponent } from './album-detail/album-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     SceneOneComponent,
-    SceneTwoComponent
+    SceneTwoComponent,
+    SceneThreeComponent,
+    AlbumDetailComponent
   ],
   imports: [
     BrowserModule,

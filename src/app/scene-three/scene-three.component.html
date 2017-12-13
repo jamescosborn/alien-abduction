@@ -1,0 +1,11 @@
+<p>
+  You're listening to Holy Diver on your Ipod and try to find your happy place.
+</p>
+
+<h2>Ipod</h2>
+
+<div *ngFor="let album of albums" (click)="goToDetailPage(album)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{album.title}}</em> by {{album.artist}}</h3>
+  </div>
+</div>
